@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Garden Of Eat'n</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Garden Of Eat'n</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="hours.html">Hours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="hero">
+      <h2 class="hero__h2">Bienvenidos!</h2>
+    <figure class="hero__figure">
+            <img class="hero__img" src="./Food-display_800x600.jpeg" alt="GOEat'n Image" width="800" height="300">
+            <figcaption class="offscreen">Garden Of Eat'n Food</figcaption>
+    </figure>
+    </section>
+    
+    <h2 class="head__menu">OUR MENU</h2>
+    <main id="menu">
+        <table class="menu">
+            <thead>
+              <tr>
+                <th scope="col"  class="menu__header">Taco</th>
+                <th scope="col"  class="menu__header">Price</th>
+                <th scope="col"  class="menu__header"><abbr title="Quantity">QTY</abbr></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" rowspan="3" class="menu__item menu__cr">Crunchy</th>
+                <td class="menu__item">1</td>
+                <td class="menu__item">$2</td>
+              </tr>
+              <tr>
+                <td class="menu__item">2</td>
+                <td class="menu__item">$4</td>
+              </tr>
+              <tr>
+                <td class="menu__item">3</td>
+                <td class="menu__item">$5</td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="3" class="menu__item menu__sf">Softie</th>
+                <td class="menu__item">1</td>
+                <td class="menu__item">$3</td>
+              </tr>
+              <tr>
+                <td class="menu__item">2</td>
+                <td class="menu__item">$5</td>
+              </tr>
+              <tr>
+                <td class="menu__item">3</td>
+                <td class="menu__item">$7</td>
+              </tr>
+              <tfoot>
+                <td class="menu__item menu__cs">Chips & Salsa $2</td>
+              </tfoot>
+            </tbody>
+          </table>
+    </main>
+
+    <p class="backToTop"><a href="#">Back To Top</a></p>
+
+    <footer class="footer">
+        <h3 class="footer__p">Copyright &copy; <time id="year"></time> Garden Of Eat'n</h3>
+    </footer>
+
+    <script src="js.js" defer></script>
+
+</body>
+</html>
