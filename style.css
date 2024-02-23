@@ -205,7 +205,6 @@ a:hover {
 
     80% {
         top: 20px;
-        /* transform: skew(10deg, -3deg); */
         transform: scaleY(1.1);
     }
 
